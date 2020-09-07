@@ -1,3 +1,5 @@
+# deploy url on firebase https://clone-a03cd.web.app/
+
 ## https://aggie.io/rfr9rl8fr
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
