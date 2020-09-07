@@ -1,14 +1,5 @@
 export const initialState = {
-  basket: [
-    {
-      id: "1234",
-      title:
-        "Prestige Iris 750 Watt Mixer Grinder with 3 Stainless Steel Jar + 1 Juicer Jar (White and Blue)",
-      price: 250,
-      rating: 5,
-      image: "https://m.media-amazon.com/images/I/61Z4fxBfkVL._AC_UY218_.jpg",
-    },
-  ],
+  basket: [],
   user: null,
 };
 
@@ -18,6 +9,11 @@ export const getBasketTotal = (basket) =>
 const reducer = (state = initialState, action) => {
   const { type } = action;
   switch (type) {
+    case "SET_USER":
+      return {
+        ...state,
+        user: action.user,
+      };
     case "ADD_TO_BASKET":
       // Logic of adding item to basket
       return {

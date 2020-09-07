@@ -1,14 +1,3 @@
-const firebaseConfig = {
-apiKey: "AIzaSyBeRDN_SHe0L790GUSgVBYrEgJLYrVCP9g",
-authDomain: "clone-a03cd.firebaseapp.com",
-databaseURL: "https://clone-a03cd.firebaseio.com",
-projectId: "clone-a03cd",
-storageBucket: "clone-a03cd.appspot.com",
-messagingSenderId: "603498083227",
-appId: "1:603498083227:web:1c63309d0eaaec5a0e273e",
-measurementId: "G-NSY9BWGQTN"
-};
-
 ## https://aggie.io/rfr9rl8fr
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
