@@ -1,4 +1,4 @@
-# deploy url on firebase https://clone-a03cd.web.app/
+# deployed url on firebase https://clone-a03cd.web.app/
 
 ## https://aggie.io/rfr9rl8fr
 
